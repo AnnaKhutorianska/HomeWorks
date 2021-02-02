@@ -75,11 +75,20 @@
     flex-wrap:wrap
 }
 
+.main-content {
+    /* display: inline;
+    float: left; */
+    /* margin-right: 65px; */
+    text-align: center;  
+    margin-bottom: 58px;
+    
+}
 .img_content {
     height: 200px;
     width: 307px;
     background: linear-gradient(to right, #ffffff , #000000);
     padding: 2px;
+    margin-bottom: 22px;
 }
 
 .text-description{
@@ -88,7 +97,7 @@
     font-size: 18px;
     color: #ffffff;
     font-family: "Verdana";
-    margin: 22px 0 58px 0; 
+    /* margin: 22px 0 58px 0;  */
 }
 
 .text-description:hover{
