@@ -9,7 +9,12 @@
     background-size: cover;
 }
 
-.header {
+.text-style {
+    font-size: 18px;
+    font-family: "Verdana", sans-serif;
+}
+
+.header-container {
     display:flex;
     justify-content: space-between;
     margin: 49px auto;
@@ -29,45 +34,36 @@
 
 .text-header:hover{
     color:#f26522;
+    transition-duration: .3s;
 }
 
 .text-header:hover .header-logo{
     background-image: url('../image/logo@1X_hover.png');
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
 }
 
-.milan-holiday {
-    margin-bottom: 45px;
-}
 
-.text-milan {
+.header-text-milan {
     font-size: 29px;
     font-weight: bold;
-    font-family: "Verdana";
     line-height: 21px;  
 }
 
-.text-holidays {
-    font-size: 18px;
+.header-text-holidays {
     font-weight: bold;
-    font-family: "Verdana";
     letter-spacing: 0.1px;
     margin-top: 8px;
 }
 
 .header-email {
     text-align: right;
-    font-size: 18px;
     color: #ffffff;
-    font-family: "Verdana";
     margin-bottom: 5px;
 }
 
 .header-number {
     text-align: right;
-    font-size: 18px;
     color: #ffffff;
-    font-family: "Verdana";
 }
 .main-container {
     display:flex;
@@ -76,14 +72,11 @@
 }
 
 .main-content {
-    /* display: inline;
-    float: left; */
-    /* margin-right: 65px; */
     text-align: center;  
     margin-bottom: 58px;
     
 }
-.img_content {
+.main-img-content {
     height: 200px;
     width: 307px;
     background: linear-gradient(to right, #ffffff , #000000);
@@ -92,24 +85,19 @@
 }
 
 .text-description{
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
+    text-align: center;
     color: #ffffff;
-    font-family: "Verdana";
-    /* margin: 22px 0 58px 0;  */
 }
 
-.text-description:hover{
-    color:#f26522
+.main-content:hover .text-description {
+    color:#f26522;
+    transition-duration: 0.3s;
 }
 
 .footer {
     font-size: 12px;
     line-height: 21px;
     color: #ffffff;
-    font-family: "Verdana", sans-serif;
-    display: flex;
-    justify-content: center;
-    margin: 61px 0 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
 }
