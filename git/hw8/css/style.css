@@ -1,0 +1,206 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+} 
+
+.header-bgn {
+  background-image: url("/images/html_css_homework_homework8_img_bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 530px;
+    padding-bottom: 150px;
+}
+
+.header-text {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.header-text2 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+}
+
+.we {
+    background-color: #fff;
+    padding: 49px 34px 42px 29px;
+    color: #f1ad1d;
+}
+
+.make {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: white solid 1px;
+    color: #ffffff;
+    padding: 49px 34px 42px 29px;
+}
+
+.logo {
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-text1 {
+    font-size: 22px;
+    line-height: 18px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-text2 {
+    font-size: 17px;
+    line-height: 24px;
+    color: #4d4943;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.orange-line {
+    width: 60px;
+    height: 3px;
+    background-color: #f1ad1d;
+    border-radius: 2px;
+    border: none;
+}
+
+.section1 {
+    padding: 110px 0 35px 0;
+}
+
+.line-section-1 {
+    margin: 50px 0 130px 0;
+}
+.main-parallax-1{
+    background-image: url("/images/html_css_homework_homework8_img_bg2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text-style {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.main-text-style-orange {
+    color:  #f1ad1d;
+}
+
+.text-parallax-1 {
+    padding: 150px 0 60px 0;
+}
+
+.parallax-line-1 {
+    padding-bottom: 150px;
+}
+
+.section2 {
+    padding: 135px 0 35px 0;
+}
+
+.line-section-2 {
+    padding: 50px 0 190px 0;
+}
+.main-parallax-2{
+    background-image: url("/images/html_css_homework_homework8_img_bg3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-parallax-2-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 50px 0 120px 0;
+}
+
+.text-parallax-2 {
+    padding: 160px 0 60px 0;
+}
+
+.section3{
+    padding: 160px 0 50px 0;
+}
+
+.line-section-3{
+    padding: 50px 0 125px 0;
+}
+
+.main-parallax-3{
+    background-image: url("/images/html_css_homework_homework8_img_bg4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-parallax-3-link {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 60px 0 44px 0;
+}
+
+.main-parallax-3-link-orange {
+    color: #f1ad1d;
+}
+
+.text-parallax-3 {
+    padding: 130px 0 60px 0;
+}
+
+.white-line {
+    width: 281px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: none;
+}
+
+.parallax-3-line {
+    padding-bottom: 120px;
+}
+
+.section4-text1 {
+    padding: 155px 0 35px 0;
+}
+
+.section4-text2 {
+    padding-bottom: 180px;
+}
