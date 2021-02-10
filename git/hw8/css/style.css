@@ -37,13 +37,13 @@
     padding-bottom: 28px;
 }
 
-.we {
+.header-logo-we {
     background-color: #fff;
     padding: 49px 34px 42px 29px;
     color: #f1ad1d;
 }
 
-.make {
+.header-logo-make {
     color: white;
     background-color: rgb(0, 0, 0, 0.3);
     border: white solid 1px;
