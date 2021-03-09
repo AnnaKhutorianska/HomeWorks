@@ -1,0 +1,115 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 970px;
+} 
+
+.header-bgn { 
+  background-image:  linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/html_css_homework_homework9_optional_img_bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  padding-top: 64px;
+} 
+
+.header-container {
+  background-color: #fff;
+  padding: 38px 0;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 36px;
+  color: #424f57;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-logo-blue {
+  color: #14afca;
+  font-weight: bold;
+}
+
+.header-menu {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #3e4c4e;
+  font-weight: 700;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-menu:hover {
+  color: #14afca;
+  transition-duration: 0.3s;
+}
+
+.header-text {
+  font-size: 52px;
+  line-height: 75px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Futura BT", "AdobeInvisFont", "MyriadHebrew-Regular", sans-serif;
+  text-align: center;
+  padding: 173px 0 160px 0;
+  text-transform: uppercase;
+}
+
+/* main */
+
+.section-what {
+  padding: 110px 0 100px 0;
+}
+
+.section-name {
+  font-size: 60px;
+  color: #14afca;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.section-subtitle {
+  color: #424f57;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-content {
+  font-size: 16px;
+  line-height: 30px;
+  color: #424f57;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.section-companies-bgn { 
+  background-image:  linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/html_css_homework_homework9_optional_img_bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+} 
+
+.section-companies {
+  padding: 100px 0 60px 0;
+}
+
+.section-companies-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+}
